@@ -144,7 +144,7 @@
   padding-top: 5rem;
 }
 .main-padre .body-text-content {
-  font-family: "Printcess";
+  font-family: "printcess";
   font-size: 54px;
   padding-bottom: 4rem;
   padding-left: 4rem;
@@ -430,6 +430,6 @@
   src: url("../fonts/didactgothic-regular.ttf");
 }
 @font-face {
-  font-family: "Printcess";
-  src: url("../fonts/Printcess.ttf");
+  font-family: "printcess";
+  src: url("../fonts/printcess.ttf");
 }/*# sourceMappingURL=styles.css.map */
