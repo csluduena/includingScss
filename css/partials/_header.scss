@@ -1,0 +1,94 @@
+.header-padre {
+    background-color: $color3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 10rem;
+    padding: 0;
+    margin:0;
+
+    .row, .col {
+        margin:0;
+        padding:0;
+    }
+    .banner-title {
+        color: $color2;
+        font-size: 100px;
+        font-family: "DatBox";
+    }
+    .b-tt1, .b-tt2 {
+        display: none;
+    }
+    
+    
+
+
+
+
+
+    @media (max-width: 1300px) {
+        .b-tt1, .b-tt2 {
+            display: none;
+        } 
+    }
+    @media (max-width: 900px) {
+        .banner-title {
+            font-size: 75px;
+        }
+        .b-tt1, .b-tt2 {
+            display: none;
+        }
+    }
+    @media (max-width: 768px) {
+        .banner-title {
+            font-size: 70px;
+        }
+        .b-tt1, .b-tt2 {
+            display: none;
+        }
+    }
+    @media (max-width: 600px) {
+        .banner-title {
+            display:none;
+        }
+        .b-tt1 {
+            display:flex;
+            font-size: 55px;
+            color: $color2;
+            font-family: "DatBox";
+            align-items: center;
+            justify-content: center;
+            }
+        .b-tt2 {
+            display:flex;
+            font-size: 55px;
+            color: $color2;
+            font-family: "DatBox";
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    @media (max-width: 480px) {
+        .banner-title {
+            display:none;
+        }
+        .b-tt1 {
+            display:flex;
+            font-size: 45px;
+            color: $color2;
+            font-family: "DatBox";
+            align-items: center;
+            justify-content: center;
+            }
+        .b-tt2 {
+            display:flex;
+            font-size: 45px;
+            color: $color2;
+            font-family: "DatBox";
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
