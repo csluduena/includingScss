@@ -300,7 +300,7 @@
   .main-padre .top-bar-lowreso {
     background-color: #0A2733;
     display: flex;
-    height: 20vh;
+    height: 15vh;
     padding: 0;
     margin: 0;
   }
@@ -334,7 +334,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 15vh;
     padding: 0;
     margin: 0;
   }
@@ -376,6 +376,41 @@
 .footer-padre .row, .footer-padre .col {
   margin: 0;
   padding: 0;
+}
+
+.left-bar-content .botones-izquierda {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.left-bar-content .botones-izquierda hr {
+  color: #CACECA;
+  margin: 0;
+}
+.left-bar-content .botones-izquierda .fila {
+  display: block;
+  position: relative;
+  height: 75px;
+  width: auto;
+  font-size: 40px;
+  color: #CACECA;
+  background-color: #0A2733;
+  transition: filter 0.3s;
+}
+.left-bar-content .botones-izquierda .fila:hover {
+  font-weight: bolder;
+  color: #0A2733;
+  background-color: #CACECA;
+  cursor: pointer;
+  filter: none;
+}
+.left-bar-content .botones-izquierda .fila:hover a {
+  color: #CACECA;
+}
+.left-bar-content .botones-izquierda .fila:hover ~ .fila,
+.left-bar-content .botones-izquierda .fila:hover + .fila,
+.left-bar-content .botones-izquierda .fila:hover > .fila {
+  filter: blur(0.2rem); /* Aplica el filtro a los elementos hermanos */
 }
 
 @font-face {

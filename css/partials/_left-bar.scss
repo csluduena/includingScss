@@ -1,0 +1,39 @@
+.left-bar-content {
+
+    .botones-izquierda {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    
+        hr {
+            color: $color2;
+            margin:0;
+        }
+        .fila {
+            display: block;
+            position: relative;
+            height: 75px;
+            width: auto;
+            font-size: 40px;
+            color: $color2;
+            background-color: $color1;
+            transition: filter 0.3s;
+            
+            }   
+        .fila:hover {
+            font-weight: bolder;
+            color: $color1;
+            background-color: $color2;
+            cursor: pointer;
+            filter: none;
+            a {
+            color: $color2;
+            }
+        }
+        .fila:hover ~ .fila,
+        .fila:hover + .fila,
+        .fila:hover > .fila {
+        filter: blur(0.2rem); /* Aplica el filtro a los elementos hermanos */
+    }
+    }
+}        
