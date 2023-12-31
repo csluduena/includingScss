@@ -1,0 +1,26 @@
+.right-bar-content {
+    display:flex;
+    justify-content: center;
+    
+
+    .right-bar {
+        display:flex;
+        flex-direction: column;
+
+        .image-publicity {
+            
+            padding: 15px;
+            height: 13vw;
+        }
+        .main-title-right{
+            font-family: fantasy;
+            font-size: 22px;
+            color: $color2;
+            padding: 20px;
+            
+        }
+
+
+        
+    }
+}
