@@ -10,30 +10,50 @@
             margin:0;
         }
         .fila {
-            display: block;
-            position: relative;
+            display: flex;
+            font-family: "font-printcess";
+            justify-content: space-around;
+            flex-direction: column;
             height: 75px;
             width: auto;
-            font-size: 40px;
+            font-size: 60px;
             color: $color2;
             background-color: $color1;
-            transition: filter 0.3s;
-            
             }   
         .fila:hover {
             font-weight: bolder;
-            color: $color1;
-            background-color: $color2;
+            color: $color2;
+            background-color: $color3;
             cursor: pointer;
-            filter: none;
             a {
             color: $color2;
             }
         }
-        .fila:hover ~ .fila,
-        .fila:hover + .fila,
-        .fila:hover > .fila {
-        filter: blur(0.2rem); /* Aplica el filtro a los elementos hermanos */
+    
+        @media (max-width: 1600px) {
+        
+        }
+        @media (max-width: 1300px) {
+            .fila {
+                font-size: 40px;
+            }
+        }
+        @media (max-width: 1100px) {
+    
+        }
+        @media (max-width: 900px) {
+    
+        }
+        @media (max-width: 768px) {
+            .fila {
+                font-size: 30px;
+            }
+        }
+        @media (max-width: 600px) {
+            
+        }
+        @media (max-width: 480px) {
+    
+        }
     }
-    }
-}        
+}
