@@ -667,6 +667,23 @@
   font-size: 15px;
 }
 
+.col1-1 {
+  width: 40%;
+  padding-bottom: 1rem;
+}
+
+.col1-2 {
+  width: 40%;
+}
+
+.radio-program {
+  border: 2px solid #0A2733;
+  padding: 2px;
+  color: #CACECA;
+  background-color: #3E131B;
+  text-align: center;
+}
+
 @font-face {
   font-family: "DatBox";
   src: url("../fonts/DatBox.ttf");
