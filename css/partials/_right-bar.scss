@@ -4,9 +4,9 @@
         
         .image-publicity, .image-publicity2, .image-publicity3 {
             display:flex;
-            padding: 15px;
-            height: 11vw;
-            max-width: 150%;
+            justify-content: center;
+            padding: 20px;
+            height: 24%;
         }
         .main-title-right{ 
             font-family: fantasy;
@@ -29,23 +29,46 @@
     }
     @media (max-width: 1600px) {
         .right-bar {
+            
             .image-publicity, .image-publicity2, .image-publicity3 {
-            display:flex;
-            padding: 20px;
-            height: 13rem;
+                display:flex;
+                justify-content: center;
+                padding: 20px;
+                height: 25%;
             }
         }
     }
     @media (max-width: 1520px) {
         .right-bar {
-        .image-publicity, .image-publicity2, .image-publicity3 {
-            padding: 20px;
-            height: 13rem;
+            
+            .image-publicity, .image-publicity2, .image-publicity3 {
+                display:flex;
+                justify-content: center;
+                padding: 20px;
+                height: 25%;
             }
         }
     }
     @media (max-width: 1300px) {
         .right-bar {
+            
+            .image-publicity, .image-publicity2, .image-publicity3 {
+                display:flex;
+                justify-content: center;
+                padding: 20px;
+                height: 25%;
+            }
+        .main-title-right, .mtr-2 {
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 1px;
+            padding-top: 20px;
+            }
+        }
+    @media (max-width: 1100px) and (min-width: 898px) {
+        .right-bar {
+            display:flex;
             flex-direction: row;
             flex-wrap: nowrap;
             align-items: center;
@@ -59,13 +82,11 @@
             padding-left: 10px;
             padding-right: 10px;
             padding-bottom: 1px;
-            padding-top: 1px;
-            }
-    @media (max-width: 1100px) {
-        display:flex;
+            padding-top: 20px;
             }
         }
-    @media (max-width: 897px) and (min-width: 769.01px) {
+    } 
+    @media (max-width: 897.99px) and (min-width: 769.01px) {
         .right-bar {
             .image-publicity, .image-publicity2, .image-publicity3 {
                 padding: 20px;

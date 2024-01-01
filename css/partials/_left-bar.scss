@@ -19,15 +19,20 @@
             font-size: 60px;
             color: $color2;
             background-color: $color1;
-            }   
+            }  
         .fila:hover {
             font-weight: bolder;
             color: $color2;
             background-color: $color3;
             cursor: pointer;
+            
             a {
             color: $color2;
             }
+        }
+        .fila:active {
+            color: $color3; /* Cambia el color al hacer clic */
+            background-color: $color2;
         }
     
         @media (max-width: 1600px) {
