@@ -14,37 +14,31 @@
         gap: 10px; /* Espacio entre columnas */
         width: max-content; /* Ancho de cada columna */
         margin: 0 auto;
-    
-        .columna {
-            margin-top: 0.5rem;
-            color:$color2;
-            text-align: center;
-            padding: 2px;
-            cursor: pointer; /* Cambia el cursor al pasar el puntero */
-        
-            .columna:hover {
-                color: $color3; /* Cambia el color al pasar el puntero */
-                background-color: $color2;
-                cursor: pointer;
-                border-radius: 2rem;
-        
-                .columna:active {
-                    color: $color2; /* Cambia el color al hacer clic */
-                    background-color: $color5;
-
-                    .bottomfotter {
-                    display:grid;
-                    }
-                }
-            }  
-        }
     }
-    .footer-credit {
-        color: $color2;
-        display:grid;
-        margin-top:2rem;
+    .columna {
+        margin-top: 0.5rem;
         color:$color2;
-        font-size: 15px;
+        text-align: center;
+        padding: 2px;
+        cursor: pointer; /* Cambia el cursor al pasar el puntero */
+    }
+    .columna:hover {
+        color: $color3; /* Cambia el color al pasar el puntero */
+        background-color: $color2;
+        cursor: pointer;
+        border-radius: 2rem;
+    }
+    .columna:active {
+        color: $color2; /* Cambia el color al hacer clic */
+        background-color: $color5;
+    }
+    .bottomfotter {
+        display:grid;
+        .footer-credit {
+            display:grid;
+            color:$color2;
+            font-size: 15px;
+        }
     }
 }
 
