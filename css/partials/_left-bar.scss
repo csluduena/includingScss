@@ -10,7 +10,7 @@
             margin:0;
         }
         .fila {
-            display: flex;
+            display: block;
             font-family: "font-printcess";
             justify-content: space-around;
             flex-direction: column;
@@ -19,7 +19,11 @@
             font-size: 60px;
             color: $color2;
             background-color: $color1;
+            transition: filter 0.3 ease;
             }  
+        .fila.blurred {
+            filter:blur(2px);
+        }
         .fila:hover {
             font-weight: bolder;
             color: $color2;

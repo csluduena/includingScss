@@ -100,7 +100,7 @@
   margin: 0;
 }
 .left-bar-content .botones-izquierda .fila {
-  display: flex;
+  display: block;
   font-family: "font-printcess";
   justify-content: space-around;
   flex-direction: column;
@@ -109,6 +109,10 @@
   font-size: 60px;
   color: #CACECA;
   background-color: #0A2733;
+  transition: filter 0.3 ease;
+}
+.left-bar-content .botones-izquierda .fila.blurred {
+  filter: blur(2px);
 }
 .left-bar-content .botones-izquierda .fila:hover {
   font-weight: bolder;
