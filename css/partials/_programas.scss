@@ -26,15 +26,15 @@
 .card-title-up {
     font-family:"didactgothic-regular";
     font-weight: bold;
-    font-size: 35px;
+    font-size: 26px;
 }
 .card-title {
     font-family:"didactgothic-regular";
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 16px;
 }
 .card-text {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -51,7 +51,6 @@
         }
     }
 }
-
 @media (max-width: 1120px) and (min-width: 675px) {
     .main-padre {
         .main-title {
@@ -68,7 +67,6 @@
         }
     }
 }
-
 @media (max-width: 674px) and (min-width: 602px) {
     .main-padre {
         .main-title {
@@ -85,7 +83,6 @@
         }
     }
 }
-
 @media (max-width: 601.99px) and (min-width: 469px) {
     .center-body-content {
         max-height: 100vh;

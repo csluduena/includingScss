@@ -746,17 +746,17 @@
 .card-title-up {
   font-family: "didactgothic-regular";
   font-weight: bold;
-  font-size: 35px;
+  font-size: 26px;
 }
 
 .card-title {
   font-family: "didactgothic-regular";
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .card-text {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media (max-width: 1550px) and (min-width: 1121px) {
@@ -834,6 +834,32 @@
     font-size: 15px;
   }
 }
+.main-title-p {
+  font-family: "cursif";
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 35px;
+}
+
+.body-text-content-p {
+  font-family: "font-printcess";
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.carousel-padre {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.body-text-content-p2 {
+  margin-bottom: 5rem;
+}
+
+.carousel-padre .config-carousel {
+  margin-bottom: 1rem;
+}
+
 @font-face {
   font-family: "DatBox";
   src: url("../fonts/DatBox.ttf");
