@@ -1,14 +1,35 @@
-.col1-1 {
-    width: 40%;
-    padding-bottom: 1rem;
+.main-title {
+    padding-bottom: 2rem;
 }
-.col1-2 {
-    width: 40%;
-    }
-.radio-program {
+.contenido-body-program {
+    display:flex;
+    justify-content: center;
+    
+}    
+.container-tab {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
     border: 2px solid $color1;
     padding: 2px;
     color: $color2;
-    background-color: $color3;
+    background-color: $color2;
     text-align: center;
+    
 }
+.card-body {
+    background-color: $color2;
+}
+.card-title {
+    font-family:"didactgothic-regular";
+}
+
+// @media screen and (min-width: 1701px) {
+//     .col-md-6 {
+//         width: 26%;
+//     }
+// }

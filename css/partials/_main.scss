@@ -187,10 +187,13 @@
     }
     @media (max-width: 722px) {
         .body-text-content {
-            font-size: 26px;
+            font-size: 29px;
         }
     }
     @media (max-width: 600px) {
+        .body-text-content {
+            font-size: 34px;
+        }
         hr {
             display: none;
         }
@@ -218,30 +221,31 @@
             flex-wrap: nowrap;
             flex-direction: row;
             align-items: baseline;
-        
-            .botones-izquierda {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-                flex-wrap: nowrap;
-            }
-            .fila {
-                padding:1rem;
-            }
-            .botones-izquierda:hover {
-                font-weight: bolder;
-                background-color: $color4;
-                cursor: pointer;
-            }
-            .fila:hover {
-                font-weight: bolder;
-                color: $color2;
-                background-color: $color4;
-                cursor: pointer;
-            }
-            a {
-                color: $color3;
-            }
+        }
+        .botones-izquierda {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .fila {
+            padding:1rem;
+            color: $color2;
+            background-color: $color1;
+        }
+        .botones-izquierda:hover {
+            font-weight: bolder;
+            background-color: $color3;
+            cursor: pointer;
+        }
+        .fila:hover {
+            font-weight: bolder;
+            color: $color2;
+            background-color: $color4;
+            cursor: pointer;
+        }
+        a {
+            color: $color3;
         }
     }
     @media (max-width: 540px) {
@@ -272,31 +276,30 @@
             flex-wrap: nowrap;
             flex-direction: row;
             align-items: baseline;
-        
-            .botones-izquierda {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-                flex-wrap: nowrap;
-            }
-            .fila {
-                padding:0.5rem;
-                font-size: 25px;
-            }
-            .botones-izquierda:hover {
-                font-weight: bolder;
-                background-color: $color4;
-                cursor: pointer;
-            }
-            .fila:hover {
-                font-weight: bolder;
-                color: $color2;
-                background-color: $color4;
-                cursor: pointer;
-            }
-            a {
-                color: $color3;
-            }
+        }
+        .botones-izquierda {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .fila {
+            padding:0.5rem;
+            font-size: 25px;
+        }
+        .botones-izquierda:hover {
+            font-weight: bolder;
+            background-color: $color4;
+            cursor: pointer;
+        }
+        .fila:hover {
+            font-weight: bolder;
+            color: $color2;
+            background-color: $color4;
+            cursor: pointer;
+        }
+        a {
+            color: $color3;
         }
     }
     @media (max-width: 480px) {
@@ -327,31 +330,30 @@
             flex-wrap: nowrap;
             flex-direction: row;
             align-items: baseline;
-        
-            .botones-izquierda {
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-                flex-wrap: nowrap;
-            }
-            .fila {
-                padding:0.4rem;
-                font-size: 25px;
-            }
-            .botones-izquierda:hover {
-                font-weight: bolder;
-                background-color: $color4;
-                cursor: pointer;
-            }
-            .fila:hover {
-                font-weight: bolder;
-                color: $color2;
-                background-color: $color4;
-                cursor: pointer;
-            }
-            a {
-                color: $color3;
-            }
+        }
+        .botones-izquierda {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .fila {
+            padding:0.4rem;
+            font-size: 25px;
+        }
+        .botones-izquierda:hover {
+            font-weight: bolder;
+            background-color: $color4;
+            cursor: pointer;
+        }
+        .fila:hover {
+            font-weight: bolder;
+            color: $color2;
+            background-color: $color4;
+            cursor: pointer;
+        }
+        a {
+            color: $color3;
         }
     }
 }
