@@ -4,32 +4,125 @@
 .contenido-body-program {
     display:flex;
     justify-content: center;
-    
 }    
 .container-tab {
     display:flex;
     text-align: center;
     flex-direction: column;
+    width: 90%;
 }
 .col-md-6 {
-    flex: 0 0 auto;
+    //flex: 0 0 auto;
     width: 50%;
     border: 2px solid $color1;
     padding: 2px;
     color: $color2;
     background-color: $color2;
     text-align: center;
-    
 }
 .card-body {
     background-color: $color2;
 }
+.card-title-up {
+    font-family:"didactgothic-regular";
+    font-weight: bold;
+    font-size: 35px;
+}
 .card-title {
     font-family:"didactgothic-regular";
+    font-weight: bolder;
+    font-size: 25px;
+}
+.card-text {
+    font-size: 30px;
 }
 
-// @media screen and (min-width: 1701px) {
-//     .col-md-6 {
-//         width: 26%;
-//     }
-// }
+
+@media (max-width: 1550px) and (min-width: 1121px) {
+    .main-padre {
+        .card-title-up {
+            font-size: 35px;
+        }
+        .card-title {
+            font-size: 25px;
+        }
+        .card-text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 1120px) and (min-width: 675px) {
+    .main-padre {
+        .main-title {
+        font-size: 50px;
+        }
+        .card-title-up {
+            font-size: 30px;
+        }
+        .card-title {
+            font-size: 25px;
+        }
+        .card-text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 674px) and (min-width: 602px) {
+    .main-padre {
+        .main-title {
+        font-size: 40px;
+        }
+        .card-title-up {
+            font-size: 18px;
+        }
+        .card-title {
+            font-size: 20px;
+        }
+        .card-text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 601.99px) and (min-width: 469px) {
+    .center-body-content {
+        max-height: 100vh;
+    }
+    .main-padre {
+        .contenido-body-program {
+            margin-bottom: 6rem;
+        }
+        .main-title {
+        font-size: 40px;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        }
+        .card-title-up {
+            font-size: 22px;
+        }
+        .card-title {
+            font-size: 20px;
+        }
+        .card-text {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 468.99px) and (min-width: 350px) {
+    .main-padre {
+        .main-title {
+        font-size: 36px;
+        }
+        .card-title-up {
+            font-size: 20px;
+        }
+        .card-title {
+            font-size: 16px;
+        }
+        .card-text {
+            font-size: 15px;
+        }
+    }
+}

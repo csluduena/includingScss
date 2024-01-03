@@ -727,10 +727,10 @@
   display: flex;
   text-align: center;
   flex-direction: column;
+  width: 90%;
 }
 
 .col-md-6 {
-  flex: 0 0 auto;
   width: 50%;
   border: 2px solid #0A2733;
   padding: 2px;
@@ -743,10 +743,97 @@
   background-color: #CACECA;
 }
 
-.card-title {
+.card-title-up {
   font-family: "didactgothic-regular";
+  font-weight: bold;
+  font-size: 35px;
 }
 
+.card-title {
+  font-family: "didactgothic-regular";
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.card-text {
+  font-size: 30px;
+}
+
+@media (max-width: 1550px) and (min-width: 1121px) {
+  .main-padre .card-title-up {
+    font-size: 35px;
+  }
+  .main-padre .card-title {
+    font-size: 25px;
+  }
+  .main-padre .card-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1120px) and (min-width: 675px) {
+  .main-padre .main-title {
+    font-size: 50px;
+  }
+  .main-padre .card-title-up {
+    font-size: 30px;
+  }
+  .main-padre .card-title {
+    font-size: 25px;
+  }
+  .main-padre .card-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 674px) and (min-width: 602px) {
+  .main-padre .main-title {
+    font-size: 40px;
+  }
+  .main-padre .card-title-up {
+    font-size: 18px;
+  }
+  .main-padre .card-title {
+    font-size: 20px;
+  }
+  .main-padre .card-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 601.99px) and (min-width: 469px) {
+  .center-body-content {
+    max-height: 100vh;
+  }
+  .main-padre .contenido-body-program {
+    margin-bottom: 6rem;
+  }
+  .main-padre .main-title {
+    font-size: 40px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  .main-padre .card-title-up {
+    font-size: 22px;
+  }
+  .main-padre .card-title {
+    font-size: 20px;
+  }
+  .main-padre .card-text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 468.99px) and (min-width: 350px) {
+  .main-padre .main-title {
+    font-size: 36px;
+  }
+  .main-padre .card-title-up {
+    font-size: 20px;
+  }
+  .main-padre .card-title {
+    font-size: 16px;
+  }
+  .main-padre .card-text {
+    font-size: 15px;
+  }
+}
 @font-face {
   font-family: "DatBox";
   src: url("../fonts/DatBox.ttf");
